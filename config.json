@@ -1,0 +1,33 @@
+[
+    {
+        "name": "nv_dynamic_boost",
+        "location": "/sys/devices/platform/asus-nb-wmi/nv_dynamic_boost",
+        "values": {
+            "range": {
+                "min": 5,
+                "max": 25
+            }
+        },
+        "info": "Set the dynamic boost limit of the Nvidia dGPU:\n\t* min=5, max=25"
+    },
+    {
+        "name": "throttle_thermal_policy",
+        "location": "/sys/devices/platform/asus-nb-wmi/throttle_thermal_policy",
+        "values": {
+            "normal": 0,
+            "silent": 1,
+            "overboost": 2
+        },
+        "info": "Throttle thermal policy mode:\n\t* 0 - default,\n\t* 1 - overboost,\n\t* 2 - silent"
+    },
+    {
+        "name": "fan_boost_mode",
+        "location": "/sys/devices/platform/asus-nb-wmi/fan_boost_mode",
+        "values": {
+            "normal": 0,
+            "silent": 1,
+            "overboost": 2
+        },
+        "info": "Fan boost mode:\n\t* 0 - normal,\n\t* 1 - overboost,\n\t* 2 - silent"
+    }
+]
