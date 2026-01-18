@@ -76,3 +76,12 @@ def batteryNotify():
         with open(path + filename) as f:
             print(f.read().strip())
             break
+
+def macro():
+    # functions i want:
+    # Low power and low refresh rate on battery
+    # High refresh rate on battery, if on a known wifi (ex. home)
+    # High perf. on AC (playing game or sm lol)
+    # Quiet on AC (coding)
+    # Super cool on AC (editing word docs)
+    # will control prime-select (gpu selection), display ref. rate, and gpu/cpu kernel file setting

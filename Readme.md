@@ -1,3 +1,5 @@
+can set cpu and gpu settings by editing /sys/ files and monitoring battery state changes to perform macros (e.g., high-perf on cpu when unplugged)
+
 notes
 https://www.kernel.org/doc/Documentation/ABI/testing/sysfs-devices-system-cpu
 https://www.kernel.org/doc/Documentation/ABI/testing/sysfs-platform-asus-wmi
