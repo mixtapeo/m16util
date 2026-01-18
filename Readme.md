@@ -6,3 +6,6 @@ cpu_atom - e cores
 cpu_core - p cores
 
 /sys/devices/platform/asus-nb-wmi 
+
+can detect if plugged in, and will trigger a configured setting.
+uses inotify (linux notify) to avoid polling files with info for updates

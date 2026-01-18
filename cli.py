@@ -1,7 +1,7 @@
 import argparse
 import subprocess
 from typing import Optional
-from main import set_val, handle_req, get_cfg
+from helpers import handle_req, get_cfg
 
 def _print_vals_spec(vals: dict) -> None:
     if "range" in vals:
